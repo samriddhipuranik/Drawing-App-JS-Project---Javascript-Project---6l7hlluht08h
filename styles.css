@@ -1,1 +1,64 @@
 
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(203, 197, 197);
+}
+
+#drawing-board {
+    height: 83vh;
+    width: 130vh;
+    position: relative;
+
+    margin: solid blue 3px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.container {
+    height: 78vh;
+    width: 120vh;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* flex-wrap: nowrap;
+flex-flow: row; */
+    padding: 50px;
+    border: 2px solid blue;
+    background-color: rgb(255, 255, 255);
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: purple;
+    position: absolute;
+    height: 34px;
+    width: 100%;
+    top: 87vh;
+
+}
+
+#clear {
+    position: absolute;
+    align-self: center;
+    right: 0;
+
+}
+
+h1 {}
